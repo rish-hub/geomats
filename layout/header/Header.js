@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <div className="topbar" id="top">
       <div className="header6">
-        <Container className="po-relative">
+        {/* <Container className="po-relative">
           <Navbar className="navbar-expand-lg h6-nav-bar">
             <NavbarBrand href="/">
               <Image src={logo} alt="wrapkit" />
@@ -74,7 +74,7 @@ const Header = () => {
               </div>
             </Collapse>
           </Navbar>
-        </Container>
+        </Container> */}
       </div>
     </div>
   );

@@ -20,19 +20,19 @@ import CallToAction from "../../components/call-to-action/CallToAction";
 const CustomComponents = () => {
   return (
     <div>
-      <Banner2 />
+      {/* <Banner2 /> */}
       <HeaderComponent />
-      <BannerComponent />
+      {/* <BannerComponent /> */}
+      {/* <CallToAction /> */}
       <FormBannerComponent />
-      <FeatureComponent />
-      <PortfolioComponent />
-      <PricingComponent />
-      <TeamComponent />
-      <TestimonialComponent />
-      <BlogComponent />
-      <C2aComponent />
-      <ContactComponent />
-      <CallToAction />
+      {/* <FeatureComponent /> */}
+      {/* <PortfolioComponent /> */}
+      {/* <PricingComponent /> */}
+      {/* <TeamComponent /> */}
+      {/* <TestimonialComponent /> */}
+      {/* <BlogComponent /> */}
+      {/* <C2aComponent /> */}
+      {/* <ContactComponent /> */}
     </div>
   );
 };

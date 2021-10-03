@@ -27,7 +27,7 @@ const HeaderComponent = () => {
   const toggle = () => setIsOpen(!isOpen);
   return (
     <div id="section">
-      <div className="spacer">
+      {/* <div className="spacer">
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
@@ -40,8 +40,8 @@ const HeaderComponent = () => {
             </Col>
           </Row>
         </Container>
-      </div>
-      <div className="header1 po-relative">
+      </div> */}
+      {/* <div className="header1 po-relative">
         <Container>
           <Navbar className="navbar-expand-lg h1-nav">
             <NavbarBrand href="#">
@@ -89,16 +89,18 @@ const HeaderComponent = () => {
           </Navbar>
         </Container>
       </div>
+      */}
       <div className="header1 po-relative bg-dark">
         <Container>
           <Navbar className="navbar-expand-lg h2-nav">
-            <NavbarBrand href="#">
-              <Image src={logo2} alt="wrapkit" />
+            <NavbarBrand style={{ color: "white" }} href="#">
+              {/* <Image src={logo2} alt="wrapkit" /> */}
+              Geomats International
             </NavbarBrand>
             <NavbarToggler onClick={toggle}>
               <span className="ti-menu text-white"></span>
             </NavbarToggler>
-            <Collapse isOpen={isOpen} navbar id="header1">
+            {/* <Collapse isOpen={isOpen} navbar id="header1">
               <Nav navbar className="ml-auto mt-2 mt-lg-0">
                 <NavItem className="active">
                   <NavLink href="#">Home</NavLink>
@@ -133,7 +135,7 @@ const HeaderComponent = () => {
                   </a>
                 </NavItem>
               </Nav>
-            </Collapse>
+            </Collapse> */}
           </Navbar>
         </Container>
       </div>

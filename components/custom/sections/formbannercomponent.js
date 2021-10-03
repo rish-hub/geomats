@@ -6,7 +6,7 @@ import banner from "../../../assets/images/form-banners/banner1/banner-img.png";
 const FormBannerComponent = () => {
   return (
     <div>
-      <div className="spacer bg-light">
+      {/* <div className="spacer bg-light">
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
@@ -19,7 +19,7 @@ const FormBannerComponent = () => {
             </Col>
           </Row>
         </Container>
-      </div>
+      </div> */}
       <div className="bg-light">
         <section>
           <div id="banner1" className="banner spacer">
@@ -27,13 +27,12 @@ const FormBannerComponent = () => {
               <Row>
                 <Col lg="5" md="7" className="align-self-center">
                   <h2 className="title font-bold">
-                    Give your Business Real boost Now!
+                    Geomats International. Welcomes You!
                   </h2>
-                  <p className="m-t-40 m-b-30">
-                    To accomplish great things, we must not only act, but also
-                    dream; not only plan, but also believe.
+                  <p className="m-t-40 m-b-30 title font-bold">
+                    Our Site Is Getting An Overhaul<br/ > Please Come Back Soon.
                   </p>
-                  <Form className="m-t-40">
+                  {/* <Form className="m-t-40">
                     <input
                       type="text"
                       name="email"
@@ -45,7 +44,7 @@ const FormBannerComponent = () => {
                       value="Get Started"
                       className="bg-info font-semibold font-16 btn-rounded text-uppercase text-white text-center"
                     />
-                  </Form>
+                  </Form> */}
                 </Col>
                 <Col lg="6" md="5" className="align-self-center ml-auto">
                   <Image
