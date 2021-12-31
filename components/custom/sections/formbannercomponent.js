@@ -30,7 +30,7 @@ const FormBannerComponent = () => {
                     Geomats International. Welcomes You!
                   </h2>
                   <p className="m-t-40 m-b-30 title font-bold">
-                    Our Site Is Getting An Overhaul<br/ > Please Come Back Soon.
+                    {/* Our Site Is Getting An Overhaul<br/ > Please Come Back Soon. */}
                   </p>
                   {/* <Form className="m-t-40">
                     <input

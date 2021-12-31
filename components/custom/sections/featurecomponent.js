@@ -11,21 +11,71 @@ import img5 from "../../../assets/images/features/feature30/feature-img.jpg";
 const FeatureComponent = () => {
   return (
     <div>
-      <div className="spacer bg-light">
+      <div className="spacer bg-light" style={{
+        paddingTop: '15px',
+        paddingBottom: '15px'
+      }}>
         <Container>
           <Row className="justify-content-center">
-            <Col md="7" className="text-center">
-              <h1 className="title font-bold">Features</h1>
+            <Col md="12" className="text-center">
+              <h1 className="title font-bold"> Welcome to Geomats International</h1>
               <h6 className="subtitle">
-                Here you can check Demos we created based on WrapKit. Its quite
-                easy to Create your own dream website &amp; dashboard in
-                No-time.
+                  Our goal is to provide the leadership that will transform tomorrow's steel industry.
               </h6>
             </Col>
+            <Col md="7" className="wrap-feature4-box">
+              <Card>
+                <CardBody>
+                  {/* <div className="icon-round bg-light-info">
+                    <i className="fa fa-star"></i>
+                  </div> */}
+                  <h5 className="font-medium"></h5>
+                  <h6 className="m-t-20 font-small">
+                  We take great pleasure to introduce Geomats International.<br/>
+                    M/s Geomats International is one of the leading producers of steel wires in the country manufacturing 
+                    and has vast experience of continuous manufacturing and development of brass components for wide industrial applications, in India and international arena.<br/>  
+                  </h6>
+                  {/* <a href="#" className="linking text-themecolor">
+                    Explore More<i className="ti-arrow-right"></i>
+                  </a> */}
+                </CardBody>
+              </Card>
+            </Col>
+            <Col md="4" className="wrap-feature4-box">
+              <Card>
+                <CardBody>
+                
+                  <h5 className="font-medium">Our customized specialization:</h5>
+                  <h6 className="m-t-20 font-small"> 
+                    Electrical fitting accessories,<br/> Building hardware fitting accessories,<br/> Conduit pipes fitting accessories & Precision components fitting accessories.
+                  </h6>
+                
+                </CardBody>
+              </Card>
+            </Col>
+            {/* <Col md="4" className="wrap-feature4-box">
+              <Card>
+                <CardBody>
+                  <div className="icon-round bg-light-info">
+                    <i className="fa fa-star"></i>
+                  </div>
+                  <h5 className="font-medium">Instant Solutions</h5>
+                  <p className="m-t-20">
+                    You can relay on our amazing features list and also our
+                    customer services will be great experience. Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit. Praesent
+                    tristique pellentesque ipsum.
+                  </p>
+                  <a href="#" className="linking text-themecolor">
+                    Explore More<i className="ti-arrow-right"></i>
+                  </a>
+                </CardBody>
+              </Card>
+            </Col> */}
           </Row>
         </Container>
       </div>
-      <div className="spacer feature4">
+      {/* <div className="spacer feature4">
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
@@ -38,7 +88,7 @@ const FeatureComponent = () => {
                 services will be great experience for you without doubt and in
                 no-time
               </h6>
-            </Col>
+            </Col> 
           </Row>
           <Row className="m-t-40">
             <Col md="6" className="wrap-feature4-box">
@@ -81,17 +131,18 @@ const FeatureComponent = () => {
             </Col>
           </Row>
         </Container>
-      </div>
-      <div className="bg-light spacer feature20 up">
+      </div> */}
+      {/* <div className="bg-light spacer feature4 up">
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
               <span className="label label-info label-rounded">Feature 2</span>
               <h2 className="title">Awesome with Extra Ordinary Flexibility</h2>
-              <h6 className="subtitle">
+              <h6 className="subtitle ">
                 You can relay on our amazing features list and also our customer
                 services will be great experience for you without doubt and in
                 no-time
+                
               </h6>
             </Col>
           </Row>
@@ -254,7 +305,7 @@ const FeatureComponent = () => {
             </Col>
           </Row>
         </Container>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -16,6 +16,7 @@ import {
   NavbarToggler,
   Collapse,
 } from "reactstrap";
+import CallOutlinedIcon from '@material-ui/icons/CallOutlined';
 import Image from "next/image";
 import logo from "../../../assets/images/logos/green-logo.png";
 import logo2 from "../../../assets/images/logos/white-logo.png";
@@ -90,25 +91,33 @@ const HeaderComponent = () => {
         </Container>
       </div>
       */}
-      <div className="header1 po-relative bg-dark">
+      <div className="header1 po-relative bg-light">
+      <Navbar className="navbar-expand-lg h12-nav bg-danger-gradiant" >
         <Container>
-          <Navbar className="navbar-expand-lg h2-nav">
-            <NavbarBrand style={{ color: "white" }} href="#">
+          <div className="flex" style={{color: "#fff"}} > 
+              <CallOutlinedIcon style={{color:"#fff"}} /> Phone : + 91 8097674213
+          </div>
+        </Container>
+        </Navbar>
+        <Container >
+          <Navbar className="navbar-expand-lg h2-nav" >
+          
+            <NavbarBrand href="#">
               {/* <Image src={logo2} alt="wrapkit" /> */}
               Geomats International
             </NavbarBrand>
             <NavbarToggler onClick={toggle}>
               <span className="ti-menu text-white"></span>
             </NavbarToggler>
-            {/* <Collapse isOpen={isOpen} navbar id="header1">
+            <Collapse isOpen={isOpen} navbar id="header1">
               <Nav navbar className="ml-auto mt-2 mt-lg-0">
-                <NavItem className="active">
-                  <NavLink href="#">Home</NavLink>
+                <NavItem className="active" >
+                  <NavLink style={{color:'black'}} href="#">Home</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#">About Me</NavLink>
+                  <NavLink style={{color:'black'}} href="#">About Me</NavLink>
                 </NavItem>
-                <NavItem>
+                {/* <NavItem>
                   <NavLink href="#">Work</NavLink>
                 </NavItem>
                 <UncontrolledDropdown nav inNavbar>
@@ -133,9 +142,9 @@ const HeaderComponent = () => {
                   <a className="btn btn-info" href="#">
                     Hire Me
                   </a>
-                </NavItem>
+                </NavItem> */}
               </Nav>
-            </Collapse> */}
+            </Collapse>
           </Navbar>
         </Container>
       </div>
