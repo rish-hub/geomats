@@ -21,6 +21,8 @@ import Image from "next/image";
 import logo from "../../../assets/images/logos/green-logo.png";
 import logo2 from "../../../assets/images/logos/white-logo.png";
 import image from "next/image";
+import Link from 'next/link';
+
 
 const HeaderComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -112,17 +114,17 @@ const HeaderComponent = () => {
             <Collapse isOpen={isOpen} navbar id="header1">
               <Nav navbar className="ml-auto mt-2 mt-lg-0">
                 <NavItem className="active" >
-                  <NavLink style={{color:'black'}} href="#">Home</NavLink>
+                  <Link style={{color:'black',background:'blue',padding:"75%"}} href="/">Home</Link>
                 </NavItem>
                 <NavItem>
-                  <NavLink style={{color:'black'}} href="#">About Me</NavLink>
+                  <Link style={{color:'black'}} href="/aboutme">About Me</Link>
                 </NavItem>
-                {/* <NavItem>
-                  <NavLink href="#">Work</NavLink>
-                </NavItem>
+
                 <UncontrolledDropdown nav inNavbar>
                   <DropdownToggle nav>
+                    <div style={{color:'blue'}}>
                     Services <i className="fa fa-angle-down m-l-5"></i>
+                    </div>
                   </DropdownToggle>
                   <DropdownMenu className="b-none animated fadeInUp">
                     <DropdownItem>Action</DropdownItem>
@@ -135,6 +137,12 @@ const HeaderComponent = () => {
                     <DropdownItem>One more separated link</DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
+                <NavItem>
+                  <Link style={{color:'black',background:'blue'}} href="">Contact</Link>
+                </NavItem>
+                {/* <NavItem>
+                  <NavLink href="#">Work</NavLink>
+                </NavItem>
                 <NavItem>
                   <NavLink href="#">Freebies</NavLink>
                 </NavItem>
