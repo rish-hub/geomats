@@ -119,3 +119,22 @@
     flex-direction: column;
   }
 }
+.box {
+  background: url(../assets/images/blog/blog-home/img22.jpg) no-repeat;
+  background-position: 50%50%;
+  background-size: cover;
+}
+.tet {
+  text-align: center;
+  border-bottom: none;
+  margin: 0;
+  padding: 124px 0 104px 0;
+  position: relative;
+  z-index: 2;
+}
+.ten-1 {
+    color:black;
+}
+.ted {
+  color:lightblue;
+}
