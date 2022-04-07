@@ -117,7 +117,7 @@ const HeaderComponent = () => {
                   <Link style={{ color: 'black', background: 'blue', padding: "75%" }} href="/">Home</Link>
                 </NavItem>
                 <NavItem>
-                  <Link style={{ color: 'black' }} href="/aboutme">About Me</Link>
+                  <Link style={{ color: 'black' }} href="/aboutme">About Us</Link>
                 </NavItem>
 
                 <UncontrolledDropdown nav inNavbar>
@@ -138,7 +138,7 @@ const HeaderComponent = () => {
                   </DropdownMenu>
                 </UncontrolledDropdown>
                 <NavItem>
-                  <Link style={{ color: 'black', background: 'blue' }} href="">Contact</Link>
+                  <Link style={{ color: 'black', background: 'blue' }} href="/contactus">Contact</Link>
                 </NavItem>
                 {/* <NavItem>
                   <NavLink href="#">Work</NavLink>

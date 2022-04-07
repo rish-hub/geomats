@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>About Me | Geomats International</title>
+        <title>About Us | Geomats International</title>
         <meta
           name="Geomats International"
           content="Geomats International, Metal, Industry, Metal Industry "
@@ -18,7 +18,7 @@ export default function Home() {
       </div>
       <div className={styles.box}>
         <div className={styles.tet}>
-           <h2>ABOUT US </h2>
+           <h2>About Us </h2>
         </div>
       </div>
       <Row className="m-t-40">
@@ -35,7 +35,7 @@ export default function Home() {
                   </p>
                   <p className="m-t-20" style={{color:'blue'}}>
                   As we being bulk Exporter, we cater to the diverse needs of the manufacture,
-                  whose business involves Foundary, Forging, chemical, petrochemicals, oil, fertilizers, furnace rollers and instrumentation industries.
+                  whose business involves all types of metals and instrumentation industries.
                   </p>
                   <p className="m-t-20">
                   Keeping efficient and friendly customer service as the top concern, provides ultimate flexibility in fulfilling each & 
