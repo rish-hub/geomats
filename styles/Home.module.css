@@ -124,6 +124,11 @@
   background-position: 50%50%;
   background-size: cover;
 }
+.boxn {
+  background: url(../assets/images/blog/blog-home/contact.jpg) no-repeat;
+  background-position: 50%50%;
+  background-size: cover;
+}
 .tet {
   text-align: center;
   border-bottom: none;
